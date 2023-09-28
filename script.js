@@ -9,5 +9,5 @@ document.addEventListener("DOMContentLoaded", function() {
             paragraph.textContent = "DOM load success";
 
             // Append the paragraph to the body of the document
-            document.body.appendChild(paragraph);
+             document.write("DOM load success");
         });
